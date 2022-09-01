@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sharing-data-between-components';
-  currentItem= 'Television';
+  currentItem= 'TV';
   items = ['item1', 'item2', 'item3', 'item4'];
 
   addItem(newItem: string) {
